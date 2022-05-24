@@ -1,12 +1,12 @@
 # Novo Bitcoin Miner
 
-This miner has been modified to work with Novo Bitcoin's sha256dt algorithm
+This miner has been modified to work with Novo Bitcoin's sha256dt algorithm and base on novo-cgminer of Bit90
 
 
 ## How to auto compile using script:
 
 ```
-git clone https://github.com/Bit90pool/novo-cgminer.git
+git clone https://github.com/dz130/novo-cgminer.git
 cd novo-cgminer
 chmod +x auto_compile.sh
 ./auto_compile.sh
@@ -17,7 +17,7 @@ chmod +x auto_compile.sh
 
 ### 1. Clone the Repo
 
-`git clone https://github.com/Bit90pool/novo-cgminer.git`
+`git clone https://github.com/dz130/novo-cgminer.git`
 
 ### 2. Install dependancies
 
@@ -33,7 +33,7 @@ If you get compile errors you might also need the -fcommon flag.
 
 ## Run cgminer:
 
-`./cgminer -o stratum+tcp://mine.bit90.io:3333 -u pubkey.workername -p pubkey`
+`./cgminer -o stratum+tcp://m2.novopool.net:3333 -u pubkey.workername -p pubkey`
 
 Working kernels:
 * poclbm
