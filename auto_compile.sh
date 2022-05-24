@@ -31,15 +31,9 @@ make
 
 
 printf "
- ____ _____ _______ ___   ___  
-|  _ \_   _|__   __/ _ \ / _ \ 
-| |_) || |    | | | (_) | | | |
-|  _ < | |    | |  \__, | | | |
-| |_) || |_   | |    / /| |_| |
-|____/_____|  |_|   /_/  \___/ 
-Made with ♥ by BIT90
+Original by BIT90
 "
 echo -e "\n\n${COLOR_GREEN}CGMINER successfully installed!!${COLOR_NC}"
-echo -e "\n\n${COLOR_GREEN}For Troubleshooting visit https://t.me/Bit90Pool OR https://help.bit90.io${COLOR_NC}"
+echo -e "\n\n${COLOR_GREEN}For Troubleshooting visit https://help.novopool.net${COLOR_NC}"
 echo -e "\n\n${COLOR_GREEN}RUN CGMINER using the following command${COLOR_NC}"
-echo -e "${COLOR_YELLOW}- ./cgminer -o stratum+tcp://mine.bit90.io:3333 -u pubkey.workername -p pubkey ${COLOR_NC}\n"
+echo -e "${COLOR_YELLOW}- ./cgminer -o stratum+tcp://m2.novopool.net:3333 -u pubkey.workername -p pubkey ${COLOR_NC}\n"

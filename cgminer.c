@@ -8131,10 +8131,7 @@ int main(int argc, char *argv[])
 #endif
 
 	applog(LOG_WARNING, "Started %s", packagename);
-        applog(LOG_WARNING, "==========BIT90.io POOL==========");
-        applog(LOG_WARNING, "URL: http://pool.bit90.io");
-        applog(LOG_WARNING, "TELEGRAM: https://t.me/Bit90pool");
-        applog(LOG_WARNING, "=================================");
+        applog(LOG_WARNING, "URL: https://novopool.net");
 	if (cnfbuf) {
 		applog(LOG_NOTICE, "Loaded configuration file %s", cnfbuf);
 		switch (fileconf_load) {
